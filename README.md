@@ -1,1 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/b5MRUqco)
+# SysWatch
+
+Projet Rust - Moniteur système en réseau.
+
+## Lancer
+```bash
+cargo build
+cargo run
+```
+
+Le serveur écoute sur `127.0.0.1:7878` (ou IP machine) port `7878`.
+
+## Tester
+Dans un autre terminal:
+```bash
+telnet localhost 7878
+```
+ou
+```bash
+nc localhost 7878
+```
+
+Commandes:
+- cpu
+- mem
+- ps
+- all
+- help
+- quit
